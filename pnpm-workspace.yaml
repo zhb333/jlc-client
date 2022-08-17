@@ -1,0 +1,11 @@
+packages:
+  # nuxt 应用
+  - 'packages/*'
+  # 通用组件
+  - 'components/**'
+  # api 统一管理
+  - 'apis/**'
+  # 工具函数库
+  - 'utils/**'
+  # 排除单元测试目录
+  - '!**/test/**'
